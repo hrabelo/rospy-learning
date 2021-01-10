@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="rpm_pub_node" pkg="xihelm_pkg" type="rpm_pub.py"/>
+  <node name="speed_calc_sub_node" pkg="xihelm_pkg" type="speed_calc_sub_node.py"/>
+  <rosparam command="load" file="param.yaml" />
+</launch>

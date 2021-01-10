@@ -1,0 +1,8 @@
+prefix=/home/hian/Workspaces/xihelm_ws/devel
+
+Name: xihelm_pkg
+Description: Description of xihelm_pkg
+Version: 0.0.0
+Cflags: -I/home/hian/Workspaces/xihelm_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
